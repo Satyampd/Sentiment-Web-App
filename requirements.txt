@@ -6,3 +6,4 @@ pandas==0.23.4
 tqdm==4.28.1
 beautifulsoup4==4.9.3
 scikit_learn==0.23.2
+lxml==4.2.5
