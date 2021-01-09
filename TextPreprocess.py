@@ -2,6 +2,7 @@
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
+nltk.download('wordnet')
 from bs4 import BeautifulSoup
 
 from nltk.corpus import stopwords
