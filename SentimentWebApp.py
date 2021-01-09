@@ -29,7 +29,7 @@ def app():
     
     model=lr   # by default it would be LR only
     if option=='Logistic Regression':
-        st.subheader('This is a linear model for classification, it tries to find a plane between point to classify, read more about Logistic Regression in Wikipedia') 
+        st.subheader('This is a linear model for classification, it tries to find a plane between points to classify, read more about Logistic Regression in Wikipedia') 
         model=lr
     elif option=='Naive Bayes':
         st.subheader('This is a simple probablistic based model based on Bayes Theorem, read more about Naive Bayes in Wikipedia')
