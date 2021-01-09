@@ -1,5 +1,6 @@
 # Text cleaning
 import nltk
+nltk.download('punkt')
 from bs4 import BeautifulSoup
 
 from nltk.corpus import stopwords
